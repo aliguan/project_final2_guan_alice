@@ -1,5 +1,4 @@
-@import url("css/normalize.css");
-@import url("css/skeleton.css");
+
 
 html {
     box-sizing: border-box;
@@ -18,4 +17,20 @@ body {
 
 header {
     background-color: #ffed9a;
+    padding: 1em;
+}
+
+header img {
+    width: 100%;
+    max-width: 400px;
+}
+
+main {
+    width: 100%;
+}
+
+aside {
+    width: 100%;
+    background-color: #c7f4fd;
+    padding: 1em;
 }
