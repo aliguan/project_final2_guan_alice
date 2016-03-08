@@ -18,11 +18,31 @@ body {
 header {
     background-color: #ffed9a;
     padding: 1em;
+    width: 100%;
 }
 
 header img {
     width: 100%;
-    max-width: 400px;
+    max-width: 350px;
+}
+
+nav img {
+    width: 100%;
+    max-width: 100px;
+}
+
+
+@media (min-width: 700px) {
+    header {
+        float: left;
+    }
+    nav {
+        float: right;
+    }
+    nav img {
+        display: inline;
+        max-width: 150px;
+    }
 }
 
 main {
