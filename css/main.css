@@ -74,8 +74,15 @@ main {
 
 main li {
     text-decoration: none;
-    display: inline;
+    display: inline-block;
     padding-right: 0.5em;
+    vertical-align: top;
+    text-align: center;
+    font-weight: 400;
+}
+
+.caption {
+    display: block;
 }
 
 aside {
@@ -93,7 +100,7 @@ aside {
     }
     main {
         float: left;
-        width: calc(100% / 2 );
+        width: calc(100% / 2);
     }
     aside {
         float: right;
