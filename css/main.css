@@ -13,8 +13,22 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-style: 'Cubano';
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
 }
+
+.container {
+    max-width: 1024px;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'cubano', sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+
 
 header {
     background-color: #ffed9a;
@@ -27,10 +41,14 @@ header img {
     max-width: 350px;
 }
 
-nav ul {
-    display: inline;
+li img {
+    width: auto;
+    max-width: 158px;
 }
 
+nav li {
+    display: inline;
+}
 
 @media (min-width: 700px) {
     header {
@@ -39,18 +57,46 @@ nav ul {
     nav {
         float: right;
     }
-    nav img {
-        display: inline;
-        max-width: 150px;
+    main {
+        float: left;
+        width: calc(100% / 2);
+    }
+    aside {
+        float: right;
+        width: calc(100% / 2);
     }
 }
 
 main {
     width: 100%;
+    margin: auto;
+}
+
+main li {
+    text-decoration: none;
+    display: inline;
+    padding-right: 0.5em;
 }
 
 aside {
     width: 100%;
     background-color: #c7f4fd;
     padding: 1em;
+}
+
+@media (min-width: 800px) {
+    header {
+        float: left;
+    }
+    nav {
+        float: right;
+    }
+    main {
+        float: left;
+        width: calc(100% / 2 );
+    }
+    aside {
+        float: right;
+        width: calc(100% / 2 - 1em);
+    }
 }
