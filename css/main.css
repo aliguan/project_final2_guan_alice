@@ -95,3 +95,10 @@ aside {
         width: calc(100% / 2 - 1em);
     }
 }
+
+@media (max-width: 400px) {
+    header li img {
+        width: 15%;
+        height: auto;
+    }
+}
