@@ -114,7 +114,13 @@ aside {
     header li img {
         width: 15%;
         height: auto;
-        display: inline-block;
+        display: inline;
+    }
+    nav a {
+        margin: 0;
+    }
+    ul {
+        margin: auto;
     }
 }
 
