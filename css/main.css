@@ -110,7 +110,7 @@ aside {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 690px) {
     header li img {
         width: 15%;
         height: auto;
@@ -121,6 +121,12 @@ aside {
     }
     ul {
         margin: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    main li {
+        padding-left: 1.2em;
     }
 }
 
