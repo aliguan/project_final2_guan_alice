@@ -29,7 +29,7 @@ body {
 
 h1 {
     font-family: 'cubano', sans-serif;
-    font-size: 60px;
+    font-size: 3.5em;
     font-weight: 400;
     line-height: 0.95em;
 }
@@ -45,9 +45,14 @@ header img {
     max-width: 350px;
 }
 
-li img {
-    width: auto;
-    max-width: 158px;
+header li img {
+    width: 15%;
+    height: auto;
+    display: inline;
+}
+
+nav {
+    width: calc(100% / 3 * 2);
 }
 
 nav li {
@@ -97,16 +102,16 @@ aside {
 }
 
 @media (max-width: 768px) {
-    header li img {
-        width: 15%;
-        height: auto;
-        display: inline;
-    }
-    ul {
-        margin: auto;
-    }
+
     main li {
         padding-left: 1.2em;
+    }
+    nav {
+        width: 100%;
+        margin: auto;
+    }
+    ul {
+        padding: 0;
     }
 }
 
@@ -124,13 +129,13 @@ aside {
     aside {
         float: right;
         width: calc(100% / 2);
+        padding-bottom: 5em;
     }
 }
 
-
 a {
     text-decoration: none;
-    color: white;
+    color: purple;
 }
 
 a:hover {
