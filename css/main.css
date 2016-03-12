@@ -80,12 +80,13 @@ marquee {
     width: 60%;
     max-width: 325px;
     min-width: 150px;
+    margin: 1em 0 0.5em 5em;
 }
 
 main li {
     text-decoration: none;
     display: inline-block;
-    padding: 0 0.5em 0.7em 0;
+    padding: 0 1em 0.7em 0;
     text-align: center;
     font-weight: 400;
     color: white;
@@ -102,9 +103,8 @@ aside {
 }
 
 @media (max-width: 768px) {
-
     main li {
-        padding-left: 1.2em;
+        padding-left: 4em;
     }
     nav {
         width: 100%;
