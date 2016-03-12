@@ -70,14 +70,14 @@ marquee {
 #alien {
     width: 60%;
     max-width: 325px;
-    margin: 2em 0 0 5.5em;
+    min-width: 150px;
+    margin: auto;
 }
 
 main li {
     text-decoration: none;
     display: inline-block;
-    padding-right: 0.5em;
-    vertical-align: top;
+    padding: 0 0.5em 0.7em 0;
     text-align: center;
     font-weight: 400;
     color: white;
@@ -110,7 +110,7 @@ aside {
     }
 }
 
-@media (max-width: 690px) {
+@media (max-width: 750px) {
     header li img {
         width: 15%;
         height: auto;
@@ -122,9 +122,6 @@ aside {
     ul {
         margin: auto;
     }
-}
-
-@media (max-width: 500px) {
     main li {
         padding-left: 1.2em;
     }
